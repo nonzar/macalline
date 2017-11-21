@@ -32,6 +32,20 @@
     height: 100vh;
     overflow: hidden;
   }
+  .owl-item {
+    .ui-banner {
+      video {
+        opacity: 0;
+      }
+    }
+    &.active {
+      .ui-banner {
+        video {
+          opacity: 1;
+        }
+      }
+    }
+  }
   .owl-dots {
     line-height: 1;
     text-align: center;

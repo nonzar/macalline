@@ -173,6 +173,10 @@
     width: 100%;
     height: 100vh;
     overflow: hidden; }
+  .ui-banner-wrap .owl-item .ui-banner video {
+    opacity: 0; }
+  .ui-banner-wrap .owl-item.active .ui-banner video {
+    opacity: 1; }
   .ui-banner-wrap .owl-dots {
     line-height: 1;
     text-align: center;
