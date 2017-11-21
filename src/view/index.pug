@@ -23,12 +23,25 @@ html(lang="en")
                 a.language.active(href="") CN
                 a.language(href="") EN
         section.m-banner
-            .ui-banner
-                .text
-                    p
-                        img(style="width: 155px;" src="../../static/img/banner/1/title.png")
-                    p 每一种木材都天赋异禀，有的人听见风就能写歌，有的人遇场雨都能作诗...
-                img.bg(style="width: 100%;" src="../../static/img/banner/1/bg.jpg")
+            .owl-carousel.ui-banner-wrap
+                .ui-banner(style="background-image:url(../../static/img/banner/1/bg.jpg)")
+                    .text
+                        p
+                            img(style="width: 155px;" src="../../static/img/banner/1/title.png")
+                        p 每一种木材都天赋异禀，有的人听见风就能写歌，有的人遇场雨都能作诗...
+                    video(style="height: 100%;" src="../../static/media/1.mp4")
+                .ui-banner(style="background-image:url(../../static/img/banner/1/bg.jpg)")
+                    .text
+                        p
+                            img(style="width: 155px;" src="../../static/img/banner/1/title.png")
+                        p 每一种木材都天赋异禀，有的人听见风就能写歌，有的人遇场雨都能作诗...
+                    video(style="height: 100%;" src="../../static/media/1.mp4")
+                .ui-banner(style="background-image:url(../../static/img/banner/1/bg.jpg)")
+                    .text
+                        p
+                            img(style="width: 155px;" src="../../static/img/banner/1/title.png")
+                        p 每一种木材都天赋异禀，有的人听见风就能写歌，有的人遇场雨都能作诗...
+                    video(style="height: 100%;" src="../../static/media/1.mp4")
         section.m-about
             .about-text
                 p 在经历了四分之一个世纪的洗礼后，红星美凯龙如今迎来了第100座家居MALL的诞生。中国家居业的百MALL时代，标志。
@@ -62,7 +75,7 @@ html(lang="en")
         section.m-branch
             h3.ui-title 全国商场
             .branch-photo
-                .owl-carousel.owl-theme
+                .owl-carousel
                     .photo
                         img(style="width: 100%;" src="../../static/img/1.png")
                         p 华中大区

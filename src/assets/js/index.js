@@ -1,5 +1,9 @@
 $(document).ready(function () {
-  $('.owl-carousel').owlCarousel({
+  $('.m-banner .owl-carousel').owlCarousel({
+    loop: true,
+    items: 1
+  })
+  $('.m-branch .owl-carousel').owlCarousel({
     center: true,
     items: 1.2,
     loop: true,
