@@ -1,0 +1,10 @@
+.ui-banner {
+  position: relative; }
+  .ui-banner img {
+    display: block; }
+  .ui-banner .text {
+    position: absolute; }
+  .ui-banner .bg {
+    position: absolute; }
+
+/*# sourceMappingURL=ui-banner.css.map */

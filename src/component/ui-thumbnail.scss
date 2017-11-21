@@ -1,0 +1,26 @@
+.ui-thumbnail {
+  line-height: 28px;
+  font-size: 14px;
+  text-align: justify;
+  color: #fff;
+  position: relative;
+  img {
+    width: 100%;
+    display: block;
+  }
+  label {
+    font-weight: 400;
+    padding: 0 15px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  p {
+    width: 100%;
+    padding: 0 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,37 @@
+@import "../ui-button-menu";
+
+.ui-header {
+  line-height: 18px;
+  padding: 15px;
+  display: flex;
+  .language {
+    font-size: 14px;
+    color: #909090;
+    &.active {
+      color: #fff;
+    }
+  }
+  .grid {
+    flex: 1;
+    .logo {
+      float: left;
+      overflow: hidden;
+      display: inline-block;
+      img {
+        display: block;
+      }
+    }
+    .ui-button-menu {
+      margin-left: 15px;
+      float: left;
+      position: relative;
+      top: 2px;
+    }
+    & + .grid {
+      text-align: right;
+      .language {
+        margin-left: 12px;
+      }
+    }
+  }
+}

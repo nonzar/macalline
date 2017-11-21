@@ -1,0 +1,104 @@
+@import "iconfont/iconfont.css";
+@import "../../component/ui-header/index";
+@import "../../component/ui-contact";
+@import "../../component/ui-footer";
+@import "../../component/ui-button";
+@import "../../component/ui-title";
+@import "../../component/ui-thumbnail";
+@import "../../component/ui-thumb-video";
+@import "../../component/ui-banner";
+
+.ui-header {
+  width: 100%;
+  z-index: 19;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.m-banner {
+  overflow: hidden;
+}
+
+.m-about {
+  background: #fff url(../img/bg2.png) no-repeat 50% 100%;
+  background-size: 100%;
+  padding: 70px 0 60px;
+  overflow: hidden;
+  .about-text {
+    line-height: 30px;
+    padding: 30px 30px 16px;
+    position: relative;
+    &:before,
+    &:after {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1;
+      display: inline-block;
+      position: absolute;
+    }
+    &:before {
+      content: "“";
+      left: 15px;
+      top: 0;
+    }
+    &:after {
+      content: "”";
+      right: 15px;
+      bottom: 0;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+  .about-video {
+    padding: 50px 25px 0;
+    .ui-thumb-video {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.m-news {
+  background: #fff url(../img/bg1.png) no-repeat 50% 100%;
+  background-size: 100%;
+  padding-bottom: 40px;
+  overflow: hidden;
+  h3 {
+    color: #000;
+    padding: 0 25px;
+  }
+  .ui-thumbnail {
+    margin: 0 10px 10px;
+  }
+}
+
+.m-branch {
+  background-color: #232323;
+  overflow: hidden;
+  h3 {
+    padding: 0 25px;
+    &:before {
+      background-color: #232323;
+    }
+  }
+  .branch-photo {
+    .photo {
+      position: relative;
+      p {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+  .branch-map {
+    img {
+      display: block;
+      position: relative;
+      top: -35px;
+    }
+  }
+}

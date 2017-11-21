@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,QAAQ,EAAE,QAAQ;EAClB,cAAI;IACF,OAAO,EAAE,KAAK;EAEhB,gBAAM;IACJ,QAAQ,EAAE,QAAQ;EAMpB,cAAI;IACF,QAAQ,EAAE,QAAQ",
+"sources": ["ui-banner.scss"],
+"names": [],
+"file": "ui-banner.css"
+}

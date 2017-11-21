@@ -1,0 +1,23 @@
+.ui-thumb-video {
+  position: relative;
+  img {
+    width: 100%;
+    display: block;
+    z-index: 1;
+    position: relative;
+  }
+  p {
+    z-index: 9;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+  }
+  .icon-play {
+    font-size: 40px;
+    z-index: 19;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

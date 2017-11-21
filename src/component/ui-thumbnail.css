@@ -1,0 +1,19 @@
+.ui-thumbnail {
+  font-size: 14px;
+  color: #fff;
+  position: relative; }
+  .ui-thumbnail img {
+    width: 100%;
+    display: block; }
+  .ui-thumbnail label {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .ui-thumbnail p {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+
+/*# sourceMappingURL=ui-thumbnail.css.map */

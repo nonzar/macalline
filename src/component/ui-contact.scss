@@ -1,0 +1,32 @@
+.ui-contact {
+  background-color: #2d2d33;
+  font-size: 10px;
+  padding: 50px 25px 45px;
+  display: flex;
+  .grid {
+    overflow: hidden;
+    &:first-child {
+      padding-right: 15px;
+      padding-top: 10px;
+      flex: 1;
+    }
+    & + .grid {
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .contact-sns {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .iconfont {
+          line-height: 1;
+          font-size: 26px;
+        }
+      }
+      .ui-button-normal {
+        width: 100%;
+      }
+    }
+  }
+}
